@@ -148,7 +148,7 @@ header .raw #logo{
   padding: 0px 35px;
   transition: .3s;
   font-size: 20px;
-  font-family: system-ui;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .raw span:hover,
@@ -212,6 +212,7 @@ header .raw #logo{
   margin: 0;
   font-size: 7em;
   font-family: impact;
+  font-weight : 800;
 }
 .landing .title2 {
   margin-top: -44px;
