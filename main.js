@@ -3,7 +3,7 @@ let spinner = document.querySelector(".loading"), alive = document.querySelector
     bsmQalm = document.querySelector(".bsm-elqalm");
     
     
-    window.addEventListener("load", () => {
+   window.addEventListener("load", () => {
         alive.play();
         bsmQalm.play();
         document.body.style.overflow = "hidden";
