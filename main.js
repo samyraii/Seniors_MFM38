@@ -4,8 +4,8 @@ const spinner = document.querySelector(".loading"),
     
     
     window.addEventListener("load", () => {
-        aliveAudio.play();
-        bsmQalmAudio.play();
+        aliveAudio.play()
+        bsmQalmAudio.play()
         document.body.style.overflow = "hidden";
         setInterval(() => {
             spinner.style.display = "none";
