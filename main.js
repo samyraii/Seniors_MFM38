@@ -1,5 +1,17 @@
+        let alive = document.querySelector(".alive");
+        let bsmQalm = document.querySelector(".bsm-qalm");
+        let spinner = document.querySelector(".loading");
 
+           window.addEventListener("load", () => {
+                alive.play();
+                bsmQalm.play();
+                document.body.style.overflow = "hidden";
+                setInterval(() => {
+                    spinner.style.display = "none";
+                    document.body.style.overflow = "auto";
+                }, 4000);
 
+            })
 
 const count = document.querySelector(".count");
 
