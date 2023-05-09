@@ -1,21 +1,4 @@
 
-let spinner = document.querySelector(".loading"), alive = document.querySelector(".alivee"),
-    bsmQalm = document.querySelector(".bsm-elqalm");
-    
-    window.onload = function () {
-        alive.play();
-        bsmQalm.play();
-    }
-    
-   window.addEventListener("load", () => {
-
-        document.body.style.overflow = "hidden";
-        setInterval(() => {
-            spinner.style.display = "none";
-            document.body.style.overflow = "auto";
-        }, 4000);
-
-    })
 
 
 const count = document.querySelector(".count");
