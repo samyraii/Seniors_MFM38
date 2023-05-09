@@ -15,7 +15,7 @@
                 let bsmQalm = document.querySelector(".bsm-qalm");
                         alive.play();
                         bsmQalm.play();
-             })
+             }
 
 const count = document.querySelector(".count");
 
