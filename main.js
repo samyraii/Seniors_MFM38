@@ -1,21 +1,18 @@
         
         let spinner = document.querySelector(".loading");
-
-           window.addEventListener("load", () => {
-                
+        let alive = document.querySelector(".alive");
+        let bsmQalm = document.querySelector(".bsm-qalm");
+           window.addEventListener("load", () => {               
+                alive.play();
+                bsmQalm.play();
                 document.body.style.overflow = "hidden";
                 setInterval(() => {
                     spinner.style.display = "none";
                     document.body.style.overflow = "auto";
                 }, 4000);
 
-            })
-             window.onload = function() {
-                let alive = document.querySelector(".alive");
-                let bsmQalm = document.querySelector(".bsm-qalm");
-                        alive.play();
-                        bsmQalm.play();
-             }
+            });
+  
 
 const count = document.querySelector(".count");
 
