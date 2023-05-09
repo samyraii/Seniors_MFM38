@@ -175,7 +175,8 @@ header .raw #logo{
   flex-wrap: nowrap;
   width: 700%;
   padding-right: 100%;
-  animation: transform linear infinite 40s;
+  animation: transform linear infinite 42s;
+  animation-delay: 4s
 }
 .ertha2 .text{
   padding: 7px 0;
