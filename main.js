@@ -1,11 +1,11 @@
 
-const spinner = document.querySelector(".loading"),
-    aliveAudio = document.querySelector(".alivee"), bsmQalmAudio = document.querySelector(".bsm-elqalm");
+let spinner = document.querySelector(".loading"), alive = document.querySelector(".alivee"),
+    bsmQalm = document.querySelector(".bsm-elqalm");
     
     
     window.addEventListener("load", () => {
-        aliveAudio.play()
-        bsmQalmAudio.play()
+        alive.play();
+        bsmQalm.play();
         document.body.style.overflow = "hidden";
         setInterval(() => {
             spinner.style.display = "none";
