@@ -1,10 +1,8 @@
-        let alive = document.querySelector(".alive");
-        let bsmQalm = document.querySelector(".bsm-qalm");
+        
         let spinner = document.querySelector(".loading");
 
            window.addEventListener("load", () => {
-                alive.play();
-                bsmQalm.play();
+                
                 document.body.style.overflow = "hidden";
                 setInterval(() => {
                     spinner.style.display = "none";
@@ -12,6 +10,12 @@
                 }, 4000);
 
             })
+             window.addEventListener("load", () => {
+                let alive = document.querySelector(".alive");
+                let bsmQalm = document.querySelector(".bsm-qalm");
+                        alive.play();
+                        bsmQalm.play();
+             })
 
 const count = document.querySelector(".count");
 
