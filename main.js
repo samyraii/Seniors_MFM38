@@ -10,7 +10,7 @@
                 }, 4000);
 
             })
-             window.addEventListener("load", () => {
+             window.onload = function() {
                 let alive = document.querySelector(".alive");
                 let bsmQalm = document.querySelector(".bsm-qalm");
                         alive.play();
