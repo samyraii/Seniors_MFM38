@@ -4,7 +4,7 @@
         let bsmQalm = document.querySelector(".bsm-qalm");
            window.addEventListener("load", () => {               
                 alive.play();
-                bsmQalm.play();
+              //  bsmQalm.play();
                 document.body.style.overflow = "hidden";
                 setInterval(() => {
                     spinner.style.display = "none";
