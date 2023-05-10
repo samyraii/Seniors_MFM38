@@ -4,14 +4,14 @@
         let bsmQalm = document.querySelector(".bsm-qalm");
            window.addEventListener("load", () => {               
                 alive.play();
-                bsmQalm.load();
+             //   bsmQalm.load();
              
                 document.body.style.overflow = "hidden";
                 setInterval(() => {
                     spinner.style.display = "none";
                     document.body.style.overflow = "auto";
                 }, 4000);
-                bsmQalm.play();
+             //   bsmQalm.play();
             });
   
 
