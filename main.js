@@ -53,7 +53,9 @@ let divsArray = Array.from(divs);
 
 tabsArray.forEach((ele) => {
 ele.addEventListener("click", function (e) {
-
+    document.querySelector(".tabs").classList.remove("active");
+    eVent.classList.remove("active");
+    goEvent.classList.remove("active");
     tabsArray.forEach((ele) => {
     ele.classList.remove("active");
     });
